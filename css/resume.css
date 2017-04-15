@@ -190,7 +190,7 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
 }
 .resume-section-item-inner {
     padding-bottom: 15px;
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 2px dotted #ccc;
 }
 .resume-section-item:last-child > .resume-section-item-inner {
     padding-bottom: 0;
@@ -348,10 +348,8 @@ li:before {
         background-image: none;
         background-color: #ffffff;
         box-shadow: none;
-        margin: 80px 40px 0;
+        margin: 0 0 0;
         padding: 0;
-				height: 279mm;
-				width: 215mm;
     }
     .page-break {
         display: block;
