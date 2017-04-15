@@ -7,14 +7,18 @@
     <meta name="description" content="Philippe Garneau's Resume">
     <meta name="author" content="Philippe Garneau">
     <script src="https://use.fontawesome.com/0c9137b413.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="/js/xepOnline.jqPlugin.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CLato" rel="stylesheet">
 		<link href="/css/resume.css" rel="stylesheet" type="text/css" media="all">
 	</head>
   <body>
-		<div class="top-right-ribbon"><a href="philippe_garneau_resume.pdf">PDF version</a></div>
+		<div class="top-right-ribbon">
+			<a href="#" onclick="return xepOnline.Formatter.Format('resume',{render:'download'});">PDF version</a>
+		</div>
 		<div class="site-wrap">
 			<div class="resume">
-				<div class="resume-page">
+				<div class="resume-page" id="resume">
 					<div class="resume-header clearfix">
 	<div class="resume-header-left">
 		<div class="name first-color">Philippe Garneau</div>
@@ -109,7 +113,7 @@
 				
 				<li>Continued development on a command line interface to be used by the End to End tests</li>
 				
-				<li>Integration of the End to End tests into a web portal for better visualization of test results and easier test launching.</li>
+				<li>Integration of the End to End tests into a web portal for better visualization of test results and easier test launching</li>
 				
 			</ul>
 		</div>
@@ -469,6 +473,10 @@
 					
 					<div class="tech-tag">JavaScript (Beginner)</div>
 					
+					<div class="tech-tag">AngularJS (Beginner)</div>
+					
+					<div class="tech-tag">jQuery (Beginner)</div>
+					
 				</div>
 			</div>
 			
@@ -481,12 +489,16 @@
 		<div class="two-columns">
 			
 			<div class="column">
-				<div class="tech-title second-color">Cloud</div>
+				<div class="tech-title second-color">DevOps</div>
 				<div class="tech-tags-container first-color">
 					
 					<div class="tech-tag">Kubernetes (Beginner)</div>
 					
 					<div class="tech-tag">Docker (Beginner)</div>
+					
+					<div class="tech-tag">Robot Framework</div>
+					
+					<div class="tech-tag">BDD Testing</div>
 					
 				</div>
 			</div>
@@ -495,11 +507,11 @@
 				<div class="tech-title second-color">Databases</div>
 				<div class="tech-tags-container first-color">
 					
+					<div class="tech-tag">SQL (Beginner)</div>
+					
 					<div class="tech-tag">MongoDB (Beginner)</div>
 					
 					<div class="tech-tag">Redis (Beginner)</div>
-					
-					<div class="tech-tag">SQL (Beginner)</div>
 					
 				</div>
 			</div>
@@ -534,10 +546,6 @@
 					<div class="tech-tag">SVN</div>
 					
 					<div class="tech-tag">TDD</div>
-					
-					<div class="tech-tag">BDD Testing</div>
-					
-					<div class="tech-tag">Robot Framework</div>
 					
 					<div class="tech-tag">JIRA</div>
 					

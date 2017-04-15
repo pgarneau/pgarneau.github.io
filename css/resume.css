@@ -79,7 +79,6 @@ a::-moz-selection { background-color: #44c0fb; color:#000000; }
 }
 .resume-page {
     background-color: #f8f8f8;
-    background-image: url(paper-bg.jpg);
     box-shadow: 10px 10px 20px rgba(0,0,0,.7);
     box-sizing: border-box;
     color: #303030;
