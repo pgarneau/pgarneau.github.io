@@ -350,6 +350,8 @@ li:before {
         box-shadow: none;
         margin: 80px 40px 0;
         padding: 0;
+				height: 279mm;
+				width: 215
     }
     .page-break {
         display: block;
